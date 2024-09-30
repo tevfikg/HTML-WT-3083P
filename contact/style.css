@@ -1,0 +1,34 @@
+html body {
+    background-color: darkolivegreen;
+    background-image: url('contact-img/contact-bg.png');
+    background-repeat: no-repeat;
+    background-position-y: 20rem;
+    background-size: cover;
+    color:#f0edee;
+    box-sizing:border-box;
+    font-family: system-ui;
+}
+h2{
+    margin-left: 2rem;
+    text-align: center;
+}
+h4 {
+    margin-top: 2em;
+}
+.container {
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+
+input {
+    width: fit-content;
+}
+
+table {
+    width: fit-content;
+    height: fit-content;
+}
+
+.larger-input{
+    width: 8em; 
+}

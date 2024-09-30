@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<tr>
+    <h2>Your Feedback is İmportant For Us</h2>
+
+    <div class="container">
+        <form action="https://formsubmit.co/itevfikg@gmail.com" method="POST">
+            <table> 
+                <tr>
+                        <th><label for="first_name">Name</label></th>
+                        <th><label for="last_name">Surname</label></th>
+                        <th><label for="e-mail">E-Mail</label></th>
+                        <th><label for="age">YourAge</label></th>
+                </tr>
+                <tr>
+                        <td><input id="input-1" type="text" name="first_name" placeholder="Name" required></td>
+                        <td><input id="input-2" type="text" name="last_name" placeholder="Surname" required></td>
+                        <td><input id="input-3" type="email" name="e-mail" placeholder="Your E-mail" required></td>
+                        <td><input id="input-4" type="number" placeholder="Age" class="larger-input" min="15" max="70" /></td>  
+                </tr>
+            </table>
+            
+            <h4>Your Message</h4>
+            <!-- textarea input -->
+            <textarea id="message" name="message" rows="4" cols="68" required></textarea>
+            <br>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>

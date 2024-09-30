@@ -1,0 +1,45 @@
+body {
+background-image: src="/contact/";
+}
+h1 {
+    font-size: 36px !important;
+}
+h2 {
+    padding-top: 4%;
+    text-decoration-color: #fc0021 !important;
+}
+img {
+    border-radius: 7%;
+    
+}
+i {
+    color: #188753
+}
+
+.heroSection-btn {
+    padding: 1em !important;
+}
+.card {
+    background-color: rgba(251, 222, 145, 0.88)!important;
+}
+#p1 {
+    color: white !important; 
+
+}
+#p2 {
+    padding-top: 3ch !important;
+}
+#p5 {
+    padding-top: 3ch !important;
+}
+
+#youtube {
+    color: #fc0021; 
+    font-weight: bold; 
+}
+#mapsText {
+    margin-bottom: 1em;
+    color: chocolate;
+    align-items: center !important;
+}
+
