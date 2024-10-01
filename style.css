@@ -1,6 +1,8 @@
 body {
-background-image: src="/contact/";
+margin:0;
+background:0;
 }
+
 h1 {
     font-size: 36px !important;
 }
@@ -13,7 +15,7 @@ img {
     
 }
 i {
-    color: #188753
+    color: #188753;
 }
 
 .heroSection-btn {
